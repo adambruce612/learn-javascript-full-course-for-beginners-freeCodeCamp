@@ -71,3 +71,67 @@ function testStrictNotEqual(val) {
 
 // Change this value to test
 console.log(testStrictNotEqual(10));
+
+//*****COMPARISON WITH THE GREATER THAN OPERATOR*****
+function testGreaterThan(val) {
+    if (val > 100) { // Change this line
+        return "Over 100";
+    }
+
+    if (val > 10) { // Change this line
+        return "Over 10";
+    }
+
+    return "10 or Under";
+}
+
+// Change this value to test
+console.log(testGreaterThan(10));
+
+//*****COMPARISON WITH THE GREATER THAN OR EQUAL OPERATOR*****
+function testGreaterOrEqual(val) {
+    if (val >= 20) { // Change this line
+        return "20 or Over";
+    }
+
+    if (val >= 10) { // Change this line
+        return "10 or Over";
+    }
+
+    return "Less than 10";
+}
+
+// Change this value to test
+console.log(testGreaterOrEqual(10));
+
+//*****COMPARISON WITH THE LESS THAN OPERATOR*****
+function testLessThan(val) {
+    if (val < 25) { // Change this line
+        return "20 or Over";
+    }
+
+    if (val < 55) { // Change this line
+        return "10 or Over";
+    }
+
+    return "55 Or Over";
+}
+
+// Change this value to test
+console.log(testLessThan(10));
+
+//*****COMPARISON WITH THE LESS THAN OR EQUAL OPERATOR*****
+function testLessOrEqual(val) {
+    if (val <= 12) { // Change this line
+        return "Smaller Than or Equal to 12";
+    }
+
+    if (val <= 24) { // Change this line
+        return "Smaller Than or Equal to 24";
+    }
+
+    return "More than 24";
+}
+
+// Change this value to test
+console.log(testLessOrEqual(10));
