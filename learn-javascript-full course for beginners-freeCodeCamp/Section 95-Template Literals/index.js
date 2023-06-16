@@ -20,6 +20,9 @@ const result = {
 
 function makeList(arr) {
     const resultDisplayArray = null;
+    for (let i = 0; i < arr.length; i++) {
+        resultDisplayArray.push(`<li class="text-warning">${arr[i]}</li>`);
+    }
 
     return resultDisplayArray;
 }
@@ -32,3 +35,5 @@ function makeList(arr) {
 **/
 
 const resultDisplayArray = makeList(result.failure);
+
+console.log(resultDisplayArray)
